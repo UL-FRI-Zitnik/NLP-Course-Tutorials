@@ -15,7 +15,7 @@ conda create -n nlp-course-fri python=3.6
 source activate nlp-course-fri
 
 # Dependencies installation (one time only)
-conda install nb_conda nltk matplotlib bs4
+conda install nb_conda nltk matplotlib bs4 pandas mpld3
 conda install -c anaconda scikit-learn
 
 # Explore and run notebooks

@@ -1,7 +1,7 @@
 # Tutorials for the Natural language processing course (UL FRI)
 <sup>This repository is a part of Natural Language Processing course at the University of Ljubljana, Faculty for computer and information science. Please contact [slavko.zitnik@fri.uni-lj.si](mailto:slavko.zitnik@fri.uni-lj.si) for any comments.</sub>
 
-TODO: add description, clean the repository, sort out dependencies + nltk resources...
+TODO: add description, clean the repository, sort out dependencies + nltk resources + crfsuite installation ...
 
 **Anaconda installation**
 
@@ -15,8 +15,11 @@ conda create -n nlp-course-fri python=3.6
 source activate nlp-course-fri
 
 # Dependencies installation (one time only)
-conda install nb_conda nltk matplotlib bs4 pandas mpld3
+conda install nb_conda nltk matplotlib bs4 pandas mpld3 python-crfsuite
 conda install -c anaconda scikit-learn
+# Download from https://pypi.org/project/sklearn-crfsuite/#files or via pip if works
+# This library is not only CRFSuite wrapper but also includes CRFSuite binaries
+pip install sklearn_crfsuite-0.3.6-py2.py3-none-any.whl
 
 # Explore and run notebooks
 jupyter notebook 

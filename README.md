@@ -15,7 +15,7 @@ conda create -n nlp-course-fri python=3.6
 source activate nlp-course-fri
 
 # Dependencies installation (one time only)
-conda install nb_conda nltk matplotlib bs4 pandas mpld3 python-crfsuite
+conda install nb_conda nltk matplotlib bs4 pandas mpld3 python-crfsuite tensorflow keras h5py pydot graphviz gensim seaborn
 conda install -c anaconda scikit-learn
 # Download from https://pypi.org/project/sklearn-crfsuite/#files or via pip if works
 # This library is not only CRFSuite wrapper but also includes CRFSuite binaries

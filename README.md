@@ -3,6 +3,8 @@
 
 TODO: add description, clean the repository, sort out dependencies + nltk resources + crfsuite installation ...
 
+If you have an NVIDIA GPU, make sure NVIDIA drivers, CUDA and cuDNN are installed on your system.
+
 **Anaconda installation**
 
 Conda environment management and usage:
@@ -18,8 +20,8 @@ source activate nlp-course-fri
 conda install nb_conda nltk matplotlib bs4 pandas mpld3 python-crfsuite h5py pydot graphviz gensim seaborn 
 conda install -c huggingface transformers
 conda install -c conda-forge ipywidgets
-conda install pytorch torchvision torchaudio -c pytorch
-pip install tqdm seqeval tensorflow==2.4.1
+conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+pip install tqdm seqeval tensorflow==2.4.1 keras
 conda install -c anaconda scikit-learn
 # Download from https://pypi.org/project/sklearn-crfsuite/#files or via pip if works
 # This library is not only CRFSuite wrapper but also includes CRFSuite binaries

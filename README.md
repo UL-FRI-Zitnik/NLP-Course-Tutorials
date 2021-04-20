@@ -1,9 +1,7 @@
 # Tutorials for the Natural language processing course (UL FRI)
 <sup>This repository is a part of Natural Language Processing course at the University of Ljubljana, Faculty for computer and information science. Please contact [slavko.zitnik@fri.uni-lj.si](mailto:slavko.zitnik@fri.uni-lj.si) for any comments.</sub>
 
-TODO: add description, clean the repository, sort out dependencies + nltk resources + crfsuite installation ...
-
-If you have an NVIDIA GPU, make sure NVIDIA drivers, CUDA and cuDNN are installed on your system.
+If you have an NVIDIA GPU, make sure NVIDIA drivers, CUDA and cuDNN are installed on your system and that versions match with PyTorch and Tensorflow..
 
 **Anaconda installation**
 
@@ -17,12 +15,14 @@ conda create -n nlp-course-fri python=3.6
 source activate nlp-course-fri
 
 # Dependencies installation (one time only)
-conda install nb_conda nltk matplotlib bs4 pandas mpld3 python-crfsuite h5py pydot graphviz gensim seaborn 
-conda install -c huggingface transformers
-conda install -c conda-forge ipywidgets
-conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
-pip install tqdm seqeval tensorflow==2.4.1 keras
-conda install -c anaconda scikit-learn
+conda install nb_conda==2.2.1 nltk==3.6.1 matplotlib==3.3.4 bs4==4.9.3 pandas==1.1.5 mpld3==0.5.2 python-crfsuite==0.9.7 h5py==2.10.0 pydot==1.4.1 graphviz==2.40.1 gensim==3.8.3 seaborn==0.11.1 
+conda install -c huggingface transformers==4.4.2
+conda install -c conda-forge ipywidgets==7.6.3
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit==11.0.221 -c pytorch
+pip install tqdm seqeval tensorflow==2.4.1 keras==2.4.3
+conda install -c anaconda scikit-learn==0.24.1
+
+# Separately install crfsuite if above does not work
 # Download from https://pypi.org/project/sklearn-crfsuite/#files or via pip if works
 # This library is not only CRFSuite wrapper but also includes CRFSuite binaries
 pip install sklearn_crfsuite-0.3.6-py2.py3-none-any.whl
@@ -44,18 +44,6 @@ Show existing environments:
 conda info --envs
 ```
 
-**Pure Python 3 installation**
+**non-Anaconda environment**
 
-We are using Python 3, so first check, what is the default python interpreter on your machine. Go to console and run `python` (there may be more interpreters installed on machine and Python 3.5 might be run also using `python3.5`).
-
-You should see output similar to the following: 
-
-```
-quaternion:~ slavkoz$ python3.5
-Python 3.5.2 (v3.5.2:4def2a2901a5, Mar 2 2021, 10:47:25)
-[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-```
-
-Then I propose you to use `virtualenv` and pip to install libraries.
+I propose that you us libraries listed above using Python 3 and `virtualenv.`

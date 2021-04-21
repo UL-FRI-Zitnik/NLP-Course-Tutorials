@@ -3,7 +3,7 @@
 
 If you have an NVIDIA GPU, make sure NVIDIA drivers, CUDA and cuDNN are installed on your system and that versions match with PyTorch and Tensorflow..
 
-**Anaconda installation**
+**Anaconda installation (OPTION A)**
 
 Conda environment management and usage:
 
@@ -43,6 +43,21 @@ Show existing environments:
 ```
 conda info --envs
 ```
+
+**Anaconda installation (OPTION B)**
+
+Create a new conda environment based on the provided `environment.yml` file:
+
+```bash
+# Creation of an environment (first time only)
+conda env create -f environment.yml
+
+# Activate environment
+conda activate nlp-course-fri
+```
+
+
+The environment was successfully used within the following system: Ubuntu 20.04, CUDA 11.3, cuDNN 8.1.1.33-1+cuda11.2.
 
 **non-Anaconda environment**
 

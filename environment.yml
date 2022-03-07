@@ -226,4 +226,5 @@ dependencies:
     - termcolor==1.1.0
     - werkzeug==1.0.1
     - wrapt==1.12.1
+    - classla==1.1.0
 prefix: /home/slavkoz/anaconda3/envs/nlp-course-fri-2

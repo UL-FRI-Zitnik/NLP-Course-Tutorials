@@ -19,7 +19,7 @@ conda install nb_conda==2.2.1 nltk==3.6.1 matplotlib==3.3.4 bs4==4.9.3 pandas==1
 conda install -c huggingface transformers==4.4.2
 conda install -c conda-forge ipywidgets==7.6.3
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit==11.0.221 -c pytorch
-pip install tqdm seqeval tensorflow==2.4.1 keras==2.4.3
+pip install tqdm seqeval tensorflow==2.4.1 keras==2.4.3 classla==1.1.0
 conda install -c anaconda scikit-learn==0.24.1
 
 # Separately install crfsuite if above does not work

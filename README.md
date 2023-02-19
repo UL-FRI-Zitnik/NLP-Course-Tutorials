@@ -127,3 +127,7 @@ jupyter lab
 # Close environment
 source deactivate
 ```
+
+**Tutorial video recordings**
+
+You can access the last year video recordings from [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP&ga=1).

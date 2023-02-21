@@ -1,6 +1,57 @@
 # Tutorials for the Natural language processing course (UL FRI)
 <sup>This repository is a part of Natural Language Processing course at the University of Ljubljana, Faculty for computer and information science. Please contact [slavko.zitnik@fri.uni-lj.si](mailto:slavko.zitnik@fri.uni-lj.si) for any comments.</sub>
 
+# Lab sessions
+
+1. Introduction slides
+
+Notebooks: [Python basics (non-CS background students)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/00%20-%20Basic%20Python%20introduction)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F01%5FNLP%5F22%5FFebruary%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+2. Basic text processing & Text clustering
+
+Notebooks: [Basic text processing](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/01%20-%20Basic%20text%20processing), [Text clustering](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/02%20-%20Text%20clustering)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F02%5FNLP%5F01%5FMarch%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+3. Text classification & Slovene text processing
+
+Notebooks: [Text classification](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/03%20-%20Text%20classification), [Slovene text processing](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/04%20-%20Slovene%20text%20processing%20and%20rule-based%20systems)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F03%5FNLP%5F08%5FMarch%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+4. Traditional sequence tagging
+
+Notebooks: [Traditional language modelling & knowledge bases](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/05%20-%20Traditional%20language%20modelling%20and%20knowledge%20bases), [Traditional sequence tagging](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/06%20-%20Traditional%20sequence%20tagging)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F04%5FNLP%5F16%5FMarch%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+5. Introduction to neural networks, word embeddings & visualizations
+
+Notebooks: [Introduction to neural networks](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/07%20-%20Neural%20networks%20introduction/Neural%20networks%20introduction/Neural%20networks%20introduction.ipynb)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F06%5FNLP%5F29%5FMarch%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+7. Tensorflow examples, Multiple simple NN architectures example, Google Colab, SLING tutorial (setup, Singularity, SLURM)
+
+Notebooks: [Tensorflow versions example](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/08%20-%20Neural%20networks%20examples%20and%20hardware/Neural%20networks%20with%20Tensorflow), [Simple NNs comparison](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/IMDB_Multiple_NN_Example.ipynb), [Google Colab showcase](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/Google_Colab_IMDB_Multiple_NN_Example.ipynb), [SLING (SLURM and HPC usage)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/SLING%20Example/SLING%20GPU%20Tutorial.ipynb) 
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F07%5FNLP%5F05%5FApril%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+8. Transformers, BERT (tagging, classification), BERT (custom task)
+
+Notebooks: [BERT (classification - Tensorflow)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/09%20-%20Transformers%20and%20BERT/Sequence%20classification%20(BERT)/BERT_examples.ipynb), [BERT (tagging & examples - PyTorch)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/09%20-%20Transformers%20and%20BERT/BERT%20-%20Sequence%20tagging%20(PyTorch)/Neural%20sequence%20tagging%20(PyTorch).ipynb)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F08%5FNLP%5F12%5FApril%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+9. Graph neural networks for text processing
+
+Notebooks: [Graph neural networks for NLP](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/10%20-%20Graph%20neural%20networks/Graph%20neural%20netoworks%20in%20NLP.ipynb)
+
+Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F09%5FNLP%5F19%5FApril%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
+
+# Installation 
 If you have an NVIDIA GPU, make sure NVIDIA drivers, CUDA and cuDNN are installed on your system and that versions match with PyTorch and Tensorflow..
 
 ** NOTE: Libraries are being updated in the year 2021/22. I am using M1 (see below) - during the course I will also try to update for other architectures. **
@@ -127,7 +178,3 @@ jupyter lab
 # Close environment
 source deactivate
 ```
-
-**Tutorial video recordings**
-
-You can access the last year video recordings from [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP&ga=1).

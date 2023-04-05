@@ -33,19 +33,19 @@ Notebooks: [Introduction to neural networks](https://github.com/UL-FRI-Zitnik/NL
 
 Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F06%5FNLP%5F29%5FMarch%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
 
-7. Tensorflow examples, Multiple simple NN architectures example, Google Colab, SLING tutorial (setup, Singularity, SLURM)
+6. Tensorflow examples, Multiple simple NN architectures example, Google Colab, SLING tutorial (setup, Singularity, SLURM)
 
 Notebooks: [Tensorflow versions example](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/tree/master/08%20-%20Neural%20networks%20examples%20and%20hardware/Neural%20networks%20with%20Tensorflow), [Simple NNs comparison](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/IMDB_Multiple_NN_Example.ipynb), [Google Colab showcase](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/Google_Colab_IMDB_Multiple_NN_Example.ipynb), [SLING (SLURM and HPC usage)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/08%20-%20Neural%20networks%20examples%20and%20hardware/SLING%20Example/SLING%20GPU%20Tutorial.ipynb) 
 
 Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F07%5FNLP%5F05%5FApril%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
 
-8. Transformers, BERT (tagging, classification), BERT (custom task)
+7. Transformers, BERT (tagging, classification), BERT (custom task)
 
 Notebooks: [BERT (classification - Tensorflow)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/09%20-%20Transformers%20and%20BERT/Sequence%20classification%20(BERT)/BERT_examples.ipynb), [BERT (tagging & examples - PyTorch)](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/09%20-%20Transformers%20and%20BERT/BERT%20-%20Sequence%20tagging%20(PyTorch)/Neural%20sequence%20tagging%20(PyTorch).ipynb)
 
 Video: [link](https://unilj-my.sharepoint.com/personal/slavkozitnik_fri1_uni-lj_si/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP%2F08%5FNLP%5F12%5FApril%5F2022%2Emp4&parent=%2Fpersonal%2Fslavkozitnik%5Ffri1%5Funi%2Dlj%5Fsi%2FDocuments%2FFRI%2FVideo%20lectures%202022%2FNLP)
 
-9. Graph neural networks for text processing
+8. Graph neural networks for text processing
 
 Notebooks: [Graph neural networks for NLP](https://github.com/UL-FRI-Zitnik/NLP-Course-Tutorials/blob/master/10%20-%20Graph%20neural%20networks/Graph%20neural%20netoworks%20in%20NLP.ipynb)
 

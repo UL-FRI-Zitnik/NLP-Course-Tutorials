@@ -12,7 +12,7 @@ docker run --platform linux/amd64 -it \
   --env JUPYTER_PASSWORD='Geslo.01' \
   --mount type=bind,source=$(pwd),target=/jupyter-data \
   -p 8888:8888 \
-  -d szitnik/nlp-course-fri:01
+  -d azagsam2468/nlp-course-fri-updated
 ```
 
 2. Navigate to http://localhost:8888 and enjoy!

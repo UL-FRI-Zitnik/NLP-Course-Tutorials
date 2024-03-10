@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
-from keras.utils import np_utils
+from tensorflow.keras import utils
 
 
 def load_data(path, train=True):
@@ -60,5 +60,5 @@ def preprocess_labels(labels, encoder=None, categorical=True):
         encoder.fit(labels)
     y = encoder.transform(labels).astype(np.int32)
     if categorical:
-        y = np_utils.to_categorical(y)
+        y = utils.to_categorical(y)
     return y, encoder

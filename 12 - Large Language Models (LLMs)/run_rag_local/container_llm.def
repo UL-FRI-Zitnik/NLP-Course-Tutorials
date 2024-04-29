@@ -1,0 +1,27 @@
+Bootstrap: docker
+From: nvidia/cuda:12.4.1-devel-ubuntu22.04
+%post
+    apt-get update && apt-get install -y python3 python3-pip git gcc
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+    pip3 install --upgrade pip
+    pip3 install numpy
+    pip3 install pandas
+    pip3 install scikit-learn 
+
+    pip3 install trl transformers 
+    pip3 install accelerate 
+    pip3 install git+https://github.com/huggingface/peft.git
+    pip3 install datasets 
+    pip3 install bitsandbytes
+    pip3 install langchain
+    pip3 install sentence-transformers
+    pip3 install beautifulsoup4
+    pip3 install lxml
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+
+%runscript
+    echo "Running script $*"
+    exec python3 "$@"

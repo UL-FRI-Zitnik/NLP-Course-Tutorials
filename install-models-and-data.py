@@ -15,9 +15,4 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('tagsets_json')
 
-#import classla
-
-# pre-download standard models for Slovenian
-#classla.download('sl') 
-
 exit(0)

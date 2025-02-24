@@ -1,14 +1,14 @@
 # Tutorials for the Natural language processing course (UL FRI)
-<sup>This repository is a part of Natural Language Processing course at the University of Ljubljana, Faculty for computer and information science. Please contact [slavko.zitnik@fri.uni-lj.si](mailto:slavko.zitnik@fri.uni-lj.si), [ales.zagar@fri.uni-lj.si](mailto:ales.zagar@fri.uni-lj.si) or [boshko.koloski@ijs.si](boshko.koloski@ijs.si)  for any comments.</sub>
+<sup>This repository is a part of Natural Language Processing course at the University of Ljubljana, Faculty for computer and information science. Please contact [slavko.zitnik@fri.uni-lj.si](mailto:slavko.zitnik@fri.uni-lj.si) or [ales.zagar@fri.uni-lj.si](mailto:ales.zagar@fri.uni-lj.si)  for any comments.</sub>
 
 # Project setup
-** NOTE: Project setup is being updated weekly in the summer semester 2023/24. **
+** NOTE: Project setup is being updated weekly in the summer semester 2024/25. **
 
 ## Pure Python installation
 
 Create a virtual environment
 ```
-python3.10 -m venv .venv
+python3 -m venv .venv
 ```
 
 Activate a virtual environment

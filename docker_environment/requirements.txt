@@ -1,0 +1,7 @@
+scikit-learn==1.6.1
+nltk==3.9.1 
+matplotlib==3.10.0
+beautifulsoup4==4.13.3
+jupyter==1.0.0
+pandas==2.2.3
+mpld3==0.5.10

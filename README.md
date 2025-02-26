@@ -4,32 +4,24 @@
 # Project setup
 ** NOTE: Project setup is being updated weekly in the summer semester 2024/25. **
 
-## Pure Python installation
+## Build your own image and run it
 
-Create a virtual environment
-```
-python3 -m venv .venv
-```
+1. Build image
 
-Activate a virtual environment
 ```
-source .venv/bin/activate
-```
-
-Install libraries and other dependencies
-```
-pip install --upgrade pip
-pip install -r requirements.txt
-python install-models-and-data.py 
+docker buildx build \
+  --platform linux/amd64 \
+  -t nlp-course-fri \
+  ./docker_environment
 ```
 
-... use Python shell ...
+2. Run container
 
-Deactivate the environment
 ```
-deactivate
+docker run --platform linux/amd64 -it \
+  --mount type=bind,source=$(pwd),target=/jupyter-data \
+  -p 8888:8888 \
+  nlp-course-fri
 ```
 
-## Docker installation
-
-TBA
+3. Navigate to http://localhost:8888 (password is 'Geslo.01') and enjoy!
